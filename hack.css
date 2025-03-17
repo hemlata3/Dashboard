@@ -1,0 +1,79 @@
+.ab {
+  background-color: rgb(221, 210, 223);
+  height: 47vh;
+  width: 20vw;
+  text-align: center;
+  margin: auto;
+  margin-top: 150px;
+  padding-top: 70px;
+  border-radius: 10px;
+}
+
+#login {
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#cd {
+  margin-block: 5px;
+  width: 18vw;
+  padding: 5px;
+  font-size: 12px;
+  margin-inline: 350%;
+}
+
+#btn {
+  margin-top: 30px;
+  background-color: rgb(116, 116, 231);
+  border-radius: 4px;
+  padding: 3px;
+  padding-inline: 10px;
+  font-weight: bold;
+}
+
+#btn > a{
+  text-decoration: none;
+}
+
+.container {
+  background: linear-gradient(30deg, rgb(229, 94, 94), rgb(119, 214, 221), rgb(189, 121, 229), rgb(129, 236, 129));
+  height: 52rem;
+}
+
+.mini-container {
+  display:flex;
+  justify-content: center;
+  padding-bottom: 160px;
+  padding-top: 50px;
+}
+
+.xy {
+  font-size: 15px; 
+}
+
+
+@media (min-width: 300px) {
+.ab {
+  justify-content: flex-start;
+  max-width: 100%;
+  min-width: 35%;
+  max-height: 20%;
+  min-height: 40%;
+  text-align: center;
+}  
+
+.mini-container {
+  width: 70%;
+  margin: auto;
+}
+
+.bc {
+  max-width: 3%;
+  min-width: 1%;
+  align-items: center;
+}
+
+.container {
+  max-height:70%;
+}
+}
